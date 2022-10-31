@@ -22,5 +22,6 @@ const _ = require('lodash')
 const items = [1, [2, [3, [4]]]] // this ia a method in lodash 
 const newItems = _.flattenDeep(items)
 console.log(newItems)
+console.log('Hello Good Morning')
 
 // working on external packages e.g lodash and emberding their methods
